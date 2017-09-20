@@ -12,3 +12,9 @@ For simplicity, I've been using the Conda environmental management system. It is
 
 ## Using Conda
 Typing `$ source activate idp` will open up a termainal session with your environmental variables pointing correctly to the version of Python associated with `idp`. Run a code with `$ python <code_name>`, or run an interactive session by typing `$ python` (exit with `exit()`). Exit the terminal session by `$ source deactivate idp`.
+
+## File Overview
++ *code_sh.py*: Simple read/write from file in shell script (self executable) format
++ *code_ex.py*: Basic Python code with read/write and tecplot 
++ *rand.txt*: Random file that can be manipulated
++ *quad.gold*: Text file with x,y coordinates for y=x^2 over x=[0,10]
