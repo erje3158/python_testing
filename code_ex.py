@@ -31,7 +31,7 @@ def main():
             print(line)
     replace('main.cpp','//~~~~~~~~~~~~~~','//IFDEF OPENACC')
 
-    print("####   Plotting Stuff in Tecplot   ####")
+    print("####   Plotting Stuff in gnuplot   ####")
     plot('quad.gold')
 
 if __name__ == "__main__": 
