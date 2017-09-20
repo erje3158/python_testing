@@ -15,6 +15,6 @@ Typing `$ source activate idp` will open up a termainal session with your enviro
 
 ## File Overview
 + *code_sh.py*: Simple read/write from file in shell script (self executable) format
-+ *code_ex.py*: Basic Python code with read/write and tecplot 
++ *code_ex.py*: Basic Python code with read/write and gnuplot 
 + *rand.txt*: Random file that can be manipulated
 + *quad.gold*: Text file with x,y coordinates for y=x^2 over x=[0,10]
