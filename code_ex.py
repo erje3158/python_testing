@@ -22,14 +22,17 @@ def replace(file_path, pattern, subst):
     #Move new file
     move(abs_path, file_path)
 
+def move():
+    print("Here's Move")
+
 def main():
     print("\n\n\n")
-    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-    print("           TESTING PYTHON              ")
-    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    print("                   TESTING PYTHON                     ")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     print("\n\n\n")
 
-    print("#### Find/Replace Strings in File  ####")
+    print("####         Find/Replace Strings in File         ####")
     replace('rand.txt','//IFDEF OPENACC','//~~~~~~~~~~~~~~')
     with open('rand.txt') as file:
         for line in file:
@@ -38,6 +41,10 @@ def main():
 
     print("####      Plotting Stuff in R      ####")
     plot('quad_plot.R','quad.csv')
+
+    print("####   Move Sections of Code Inside Delimeters.   ####")
+    move()
+
 
 if __name__ == "__main__": 
     main()
